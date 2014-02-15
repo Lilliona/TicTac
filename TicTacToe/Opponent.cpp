@@ -53,3 +53,8 @@ void Opponent::set_opponentset()
 		break;
 	}
 }
+
+int Opponent::get_opponentset()
+{
+	return opponentset;
+}

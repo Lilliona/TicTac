@@ -1,13 +1,14 @@
-﻿Der Buildvorgang wurde am 15.02.2014 13:28:38 gestartet.
+﻿Der Buildvorgang wurde am 15.02.2014 15:04:36 gestartet.
      1>Projekt "C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\TicTacToe\TicTacToe.vcxproj" auf Knoten "2", build Ziel(e).
      1>InitializeBuildStatus:
          Aktualisieren des Timestamps von "Debug\TicTacToe.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp main.cpp
-         Game.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Opponent.cpp main.cpp
+         Opponent.cpp
          Code wird generiert...
          Kompilieren...
          main.cpp
+         Game.cpp
          Code wird generiert...
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\Debug\TicTacToe.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TicTacToe.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\Debug\TicTacToe.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\Debug\TicTacToe.lib" /MACHINE:X86 Debug\Field.obj
@@ -21,4 +22,4 @@
 
 Fehler beim Erstellen
 
-Verstrichene Zeit 00:00:00.93
+Verstrichene Zeit 00:00:01.84
