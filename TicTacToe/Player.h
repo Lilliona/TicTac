@@ -1,14 +1,16 @@
 #pragma once
 #include "Field.h"
+#include <string>
+#include <sstream>
 
 class Player
 {
-	char playerset;
+	int playerset;
 public:
 	Player(void);
 	~Player(void);
 
-	void set_Playerset();
-	char get_playerset();
+	void set_playerset();
+	int get_playerset();
 };
 

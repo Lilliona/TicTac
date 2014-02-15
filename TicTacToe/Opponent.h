@@ -1,10 +1,16 @@
 #pragma once
+#include <iostream>
+
+using namespace std;
+
 class Opponent
 {
-	//Variable (setzt auf ein feld)
+	int opponentset;
 public:
 	Opponent(void);
 	~Opponent(void);
-	//Platzieren auf Feld
+
+	void set_opponentset();
+	int get_opponentset();
 };
 
