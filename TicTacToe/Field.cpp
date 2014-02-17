@@ -1,5 +1,5 @@
 #include "Field.h"
-
+/*
 
 Field::Field(void)
 {
@@ -10,26 +10,19 @@ Field::~Field(void)
 {
 }
 
-/*
-void Field::draw_field()
+void Field::fill_field()
 {
-	if((a!="X"&&b!="X"&&c!="X"&&d!="X"&&e!="X"&&f!="X"&&g!="X"&&h!="X"&&i!="X")&&(a!="O"&&b!="O"&&c!="O"&&d!="O"&&e!="O"&&f!="O"&&g!="O"&&h!="O"&&i!="O"))
-	{
-		cout << "_|_|_"<<endl
-			 << "_|_|_"<<endl
-			 << " | | "<<endl;
-	}
-	 else if((a=="X"&&b!="X"&&c!="X"&&d!="X"&&e!="X"&&f!="X"&&g!="X"&&h!="X"&&i!="X")&&(a!="O"&&b!="O"&&c!="O"&&d!="O"&&e!="O"&&f!="O"&&g!="O"&&h!="O"&&i!="O"))
-	{
-		cout << "X|_|_"<<endl
-			 << "_|_|_"<<endl
-			 << " | | "<<endl;
-	}
-		cout << "_|_|_"<<endl
-			 << "_|_|_"<<endl
-			 << " | | "<<endl;
 
-		cout << "_|_|_"<<endl
-			 << "_|_|_"<<endl
-			 << " | | "<<endl;
+}*/
+/*
+
+void Field::show_field()
+{
+	cout << "Player 1 (X) - Player 2 (O)"<<endl<<endl;	
+	
+	cout << " " <<field[0]<<" | "<<field[1]<<" | " <<field[2]<<endl;
+	cout << " ----------"<<endl;
+	cout << " "<<field[3]<<" | "<<field[4]<<" | " <<field[5]<<endl;
+	cout << " ----------"<<endl;
+	cout << " "<<field[6]<<" | "<<field[7]<<" | " <<field[8]<<endl;
 }*/

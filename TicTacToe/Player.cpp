@@ -1,8 +1,8 @@
 #include "Player.h"
 
-
-Player::Player(void)
+Player::Player()
 {
+	
 }
 
 
@@ -13,6 +13,8 @@ Player::~Player(void)
 void Player::set_playerset()
 {
 	cout << "Please insert a number where you want to place your \"X\": ";
+
+/******************Input Validation*********************/
 
 	string isNumeric;
 

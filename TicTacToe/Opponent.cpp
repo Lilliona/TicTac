@@ -14,7 +14,10 @@ void Opponent::set_opponentset()
 {
 		cout << "Please insert a number where you want to place your \"O\": ";
 
-			string isNumeric;
+		
+/******************Input Validation*********************/
+
+		string isNumeric;
 
 	while (1)
 	{

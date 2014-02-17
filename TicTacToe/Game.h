@@ -5,8 +5,7 @@
 
 class Game
 {
-	Player set_X;
-	Opponent set_O;
+	
 public:
 	Game(void);
 	~Game(void);

@@ -5,9 +5,10 @@
 
 class Player
 {
+	int player_ID;
 	int playerset;
 public:
-	Player(void);
+	Player();
 	~Player(void);
 
 	void set_playerset();
