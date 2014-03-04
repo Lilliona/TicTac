@@ -1,15 +1,16 @@
 #pragma once
 #include "Player.h"
 #include "Opponent.h"
-//#include "Field.h"
 
 class Game
 {
-	
+	static char field[9];
+	void show_field();
+	int check_if_won();
 public:
 	Game(void);
 	~Game(void);
-	//laesst nach und nach die Spieler ziehen und kontrolliert ob einer gewinnt
+	
 
 	void turn();
 };

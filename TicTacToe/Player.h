@@ -5,13 +5,12 @@
 
 class Player
 {
-	int player_ID;
 	int playerset;
 public:
 	Player();
 	~Player(void);
 
-	void set_playerset();
+	void ask_for_playerset();
 	int get_playerset();
 };
 

@@ -12,7 +12,7 @@ public:
 	Opponent(void);
 	~Opponent(void);
 
-	void set_opponentset();
+	void ask_for_opponentset();
 	int get_opponentset();
 };
 

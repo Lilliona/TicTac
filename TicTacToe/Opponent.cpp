@@ -10,9 +10,9 @@ Opponent::~Opponent(void)
 {
 }
 
-void Opponent::set_opponentset()
+void Opponent::ask_for_opponentset()
 {
-		cout << "Please insert a number where you want to place your \"O\": ";
+		cout << "Opponent, please insert a number where you want to place your \"O\": ";
 
 		
 /******************Input Validation*********************/

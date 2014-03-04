@@ -1,7 +1,7 @@
-﻿Der Buildvorgang wurde am 17.02.2014 18:54:11 gestartet.
+﻿Der Buildvorgang wurde am 18.02.2014 19:23:03 gestartet.
      1>Projekt "C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\TicTacToe\TicTacToe.vcxproj" auf Knoten "2", build Ziel(e).
      1>InitializeBuildStatus:
-         Aktualisieren des Timestamps von "Debug\TicTacToe.unsuccessfulbuild".
+         "Debug\TicTacToe.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
          Game.cpp
@@ -11,6 +11,7 @@
          Debug\main.obj
          Debug\Opponent.obj
          Debug\Player.obj
+         LINK : C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\Debug\TicTacToe.exe wurde nicht gefunden oder beim letzten inkrementellen Linkvorgang nicht erstellt; vollständiger Link wird durchgeführt.
          TicTacToe.vcxproj -> C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\Debug\TicTacToe.exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Julia\Informatik\ZTT\TicTac\TicTacToe\Debug\TicTacToe.exe;#1" /manifest Debug\TicTacToe.exe.intermediate.manifest
